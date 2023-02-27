@@ -17,19 +17,19 @@
   <form action="#" method="get" enctype="multipart/form-data "></form>
   <!-- интерактивная елемнеты forms -->
   <div>
-    <input type="text" name="username" value="">
+    <input tabindex="1"  placeholder="here we go" type="text" name="username" value="">
   </div>
 <!-- Все поля "name" должны быть с уникальным именем, чтобы сервер понимал, что ему приходит. Кроме name где input radio -->
    <div>
     <input type="password" name="username" value="">
   </div>
   <div>
-    <p><input type="radio" name="beer" value="laget"> светлое</p>
+    <p><input tabindex="3" type="radio" name="beer" value="laget"> светлое</p>
     <p><input checked type="radio" name="beer" value="laget"> темное</p>
   </div>
   <br>
   <div>
-    <p><input checked type="radio" name="beer1" value="laget"> светлое</p>
+    <p><input tabindex="2" checked type="radio" name="beer1" value="laget"> светлое</p>
     <p><input type="radio" name="beer1" value="laget"> темное</p>
   </div>
   <br>
@@ -51,6 +51,11 @@
     <option value="green">зеленый</option>
     <option value="blue">голубой</option>
   </select>
+  <div>
+    <button type="reset">Отправить</button>
+  </div>
+
+ 
 
 
 

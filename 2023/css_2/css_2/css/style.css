@@ -111,5 +111,14 @@ h6 {
     text-align: justify;
 }
 .decoration{
-    text-decoration: underline;
+    text-decoration:line-through;
+}
+.textshadow{
+    text-shadow: 1px 1px 3px #000000
+}
+.texttransform{
+    text-transform:initial;
+}
+.ident{
+    text-indent:60%
 }

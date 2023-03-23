@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.text {
+    color: #333333;
+    line-height: 25px;
+
+}
+
+.bold {
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+h1 {
+
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+}
+
+h2 {
+
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.example-block {
+
+    font-size: 50px;
+    margin: 0 0 30px 0;
+    /* внутрений отступ блочных тегов */
+    /* padding: 10px 20px 30px 5px; */
+
+    /* ширина блочных тегов */
+    /* width: 500px; */
+
+    /* установка максимальную ширину блочных тегов */
+    /* max-width: 500px; */
+
+    /* установка минимальную ширину блочных тегов */
+    /* min-width: 300px; */
+
+    /* устанавливаем высоту блочных тегов  */
+    /* height: 100px; */
+
+    /* устанавливает максимальную высоту блочных тегов */
+    /* max-height: 100px; */
+
+    /* устанавливает минимальную высоту блочных тегов */
+    /* min-height: 100px; */
+
+    /* упарвление отображением содержания блочного элемента */
+    /* overflow:scroll; */
+
+    /* многоцелевое свойство , которое определяе, как элемент должен быть показан в документе */
+
+    display:grid;
+
+
+    /* граница блока */
+    border: 10px solid #000;
+    border-radius: 50px 50px 50px 0;
+
+    /* внешний отступ блочных тегов , в отличии от padding можем давать отрицательные значения*/
+    /* margin: 10px -10px; */
+}
+
+.example-string {
+   font-size: 50px;
+}
+
+.pic {
+    width: 100px;
+}

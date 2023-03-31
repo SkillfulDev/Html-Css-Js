@@ -131,75 +131,47 @@ h2 {
     line-height: normal;
 }
 
-body {
-    padding: 30px;
-    ;
+.example-block {
+    /* внутрений отступ блочных тегов */
+    /* padding: 10px 20px 30px 5px; */
 
+    /* ширина блочных тегов */
+    /* width: 500px; */
+
+    /* установка максимальную ширину блочных тегов */
+    /* max-width: 500px; */
+
+    /* установка минимальную ширину блочных тегов */
+    /* min-width: 300px; */
+
+    /* устанавливаем высоту блочных тегов  */
+    /* height: 100px; */
+
+    /* устанавливает максимальную высоту блочных тегов */
+    /* max-height: 100px; */
+
+    /* устанавливает минимальную высоту блочных тегов */
+    /* min-height: 100px; */
+
+    /* упарвление отображением содержания блочного элемента */
+    /* overflow:scroll; */
+
+    /* многоцелевое свойство , которое определяе, как элемент должен быть показан в документе */
+
+    display:grid;
+
+
+    /* граница блока */
+    border: 1px solid #000;
+
+    /* внешний отступ блочных тегов , в отличии от padding можем давать отрицательные значения*/
+    /* margin: 10px -10px; */
 }
 
-.block {
-
-
-    margin: 0 0 20px 0;
-    /* padding: 0 0 20px 0; */
-}
-
-.block p {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 20px 0;
-}
-
-.link {
-    color: red;
-}
-
-.link:visited{
-    color: green;
-}
-
-.link:hover {
-    text-decoration: underline;
-    color: blue;
-    border: 1px solid black;
-}
-
-.link:active{
-    color:yellow;
-}
-
-
-.textinput {
-    border: 1px solid black;
-    height: 50px;
-    padding: 0 15px;
-    font-size: 18px;
+.example-string {
     width: 300px;
-    margin: 0 0 10px 0;
 }
 
-.textinput:focus{
-box-shadow: 0 0 10px rgba(182, 32, 162, 0.966);
-}
-
-
-.textbutton {
-    display: block;
-    width: 300px;
-    height: 50px;
-    background-color: #ecb4b4;
-    text-transform: uppercase;
-    margin: 0 0 30px 0;
-}
-
-
-
-.list {}
-
-.list li {
-    font-style: 18px;
-    margin: 0 0 15px 0;
-}
-.list li:first-child{
-    color:green; 
+.pic {
+    width: 100px;
 }

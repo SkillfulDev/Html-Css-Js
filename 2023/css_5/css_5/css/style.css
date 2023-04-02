@@ -201,8 +201,57 @@ body {
     margin-bottom: 50px;
 }
 
-.content-bottom-info {}
+.content-bottom-info {
+   
+}
 
-.content-bottom-info-list {}
+.content-bottom-info-list {
+    margin: 0 0 35px;
+}
+.content-bottom-info-list li:nth-child(1){
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    /* font-style: bold; */
+    background:url(../img/icons/check_icon.png) no-repeat;
+    padding: 0 0 0 35px;
+    margin: 0 0 15px;
+    color: #273d46;
+}
+.content-bottom-info-list li:nth-child(2){
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 20px;
+   font-style: italic;
+   color: #80b7b3;
+   background: url(../img/icons/check_icon.png) no-repeat;
+   padding: 0 0 0 35px;
+   margin: 0 0 15px;
+}
+.content-bottom-info-list li:nth-child(3){
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    color: #273d46;
+    background: url(../img/icons/check_icon.png) no-repeat;
+    padding: 0 0 0 35px;
+    margin: 0 0 15px;
 
-.content-bottom-info__limk {}
+}
+.content-bottom-info-list li:nth-child(4){
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: line-through;
+    color:#b1b8ba;
+    background: url(../img/icons/check_icon.png) no-repeat;
+    padding: 0 0 0 35px;
+    margin: 0 0 15px;
+
+}
+
+.content-bottom-info__limk {
+  border:1px solid black;
+  border-radius: 35px;
+  
+}
+.content-bottom-info__limk span{
+    font-size: 50px;
+}

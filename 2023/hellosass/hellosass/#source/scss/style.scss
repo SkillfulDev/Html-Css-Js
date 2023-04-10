@@ -127,8 +127,12 @@ h2 {
 	line-height: normal;
 }
 
-.block
-	{
-		font-size: 14px;
-		line-height: 50px; 
+.block{
+	padding: 30px;
+		font-size: 20px;
+		line-height: 50;
+		color: green;
+		span{
+			color: blue;
+		}
 	}

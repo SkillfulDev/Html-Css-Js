@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Black.eot");
+  src: url("Lato-Black.eot?#iefix") format("embedded-opentype"), url("Lato-Black.woff2") format("woff2"), url("Lato-Black.woff") format("woff"), url("Lato-Black.ttf") format("truetype"), url("Lato-Black.svg#Lato-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Light.eot");
+  src: url("Lato-Light.eot?#iefix") format("embedded-opentype"), url("Lato-Light.woff2") format("woff2"), url("Lato-Light.woff") format("woff"), url("Lato-Light.ttf") format("truetype"), url("Lato-Light.svg#Lato-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Bold.eot");
+  src: url("Lato-Bold.eot?#iefix") format("embedded-opentype"), url("Lato-Bold.woff2") format("woff2"), url("Lato-Bold.woff") format("woff"), url("Lato-Bold.ttf") format("truetype"), url("Lato-Bold.svg#Lato-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Regular.eot");
+  src: url("Lato-Regular.eot?#iefix") format("embedded-opentype"), url("Lato-Regular.woff2") format("woff2"), url("Lato-Regular.woff") format("woff"), url("Lato-Regular.ttf") format("truetype"), url("Lato-Regular.svg#Lato-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

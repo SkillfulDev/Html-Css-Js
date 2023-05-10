@@ -27,11 +27,14 @@ border: 1px solid red;
 	/* Включает разметку Flex */
 	display: flex;
 	border: 20px solid #ece89d;
-	justify-content:center;
-	
+	justify-content:flex-start;
+	align-items: center;
+	flex-wrap: wrap-reverse;
 }
 .block__column{
-	border: 20px solid #5e5673
+	border: 20px solid #5e5673;
+
+	
 }
 .block__item{
 	background-color: #18b5a4;
